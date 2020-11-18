@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6;
+    }
+  }
+
+body{
+   background-image: url(background.jpg); 
+   background-size: cover;
+   background-position: center center;
+   background-repeat: repeat;
+}
+
+h1, h2{
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    }
+
+h1{
+    color:purple;
+    font-size:40px;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+#button-game{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    width: 350px;
+    height: 120px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: rgb(104, 102, 102);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 5%;
+    border: 2px solid black;
+}
+
+    .button:hover {
+        border:2px solid rgb(104, 102, 102) ;
+        background:white;
+        color:black;
+    }
+
+    .butty{
+            width: 400px;
+            height: 120px;
+            border: none;
+            outline: none;
+            color: #fff;
+            background: blue;
+            cursor: pointer;
+            position: relative;
+            z-index: 0;
+            border-radius: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            margin-top: 5%;
+            border: 2px solid black;
+        }
+
+        .butty:hover{
+               transform: scale(1.1);
+               box-shadow:  3px 5px 6px #ccc;
+                
+            }
+        
+    
+       
