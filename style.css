@@ -15,8 +15,7 @@ body{
    background-size: cover;
    background-position: center center;
    background-repeat: repeat;
-   opacity: 0.1; 
-}
+   }
 
 h1, h2{
     font-family: 'Satisfy', cursive;
