@@ -17,6 +17,7 @@ body{
    background-repeat: repeat;
    }
 
+   
 h1, h2{
     font-family: 'Satisfy', cursive;
     text-align: center;
@@ -37,31 +38,24 @@ h2 {
 #button-game{
     text-align: center;
     margin-top: 20px;
+    background-color: silver;
 }
 
 .button {
     width: 290px;
     height: 180px;
-    border: none;
-    outline: none;
     cursor: pointer;
     position: relative;
-    z-index: 0;
-    border-radius: 10px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    transition-duration: 0.4s;
     cursor: pointer;
     margin: 2%;
     }
 
     .button:hover {
-        transform: scale(1.1);
+        transform: scale(1.2);
     }
-
-                  
+         
 
       #info{
         font-size: 35px;
